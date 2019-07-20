@@ -5,6 +5,7 @@ body {
 
 #logo {
     float: left;
+    padding-right: 20px;
 }
 
 header h2 {
@@ -25,10 +26,6 @@ header p {
 
 header {
     margin-bottom: 50px;
-}
-
-#logo {
-    margin-top: -25px
 }
 
 #pinter {
@@ -95,6 +92,15 @@ input[type=checkbox]:checked+label {
     text-decoration: line-through;
 }
 
+#author {
+    margin-bottom: 100px;
+}
+
+#author img {
+    float: left;
+    padding-right: 20px;
+}
+
 #author h4 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -104,4 +110,33 @@ input[type=checkbox]:checked+label {
 
 button {
     float: right;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#footerimg {
+    position: absolute;
+    right: 49%;
+}
+
+#left {
+    float: left;
+    width: 425px;
+}
+
+#right {
+    float: right;
+    width: 425px;
+}
+
+#copywrite {
+    margin-top: 200px;
+    text-align: center;
+    color: darkslategray;
+    font-size: 16px;
 }
